@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache</groupId>
+  <artifactId>apache</artifactId>
+  <versioning>
+    <release>16</release>
+    <versions>
+      <version>16</version>
+    </versions>
+    <lastUpdated>20180713181250</lastUpdated>
+  </versioning>
+</metadata>
