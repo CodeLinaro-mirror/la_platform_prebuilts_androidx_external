@@ -26,7 +26,7 @@ downloadArtifact
 function getVersionNumber() {
   versionNumber="$(java -jar metalava.jar --version 2>/dev/null || echo 'unknown')"
   if echo "$versionNumber" | grep "unknown" >/dev/null; then
-    versionNumber="1.1.2-SNAPSHOT"
+    versionNumber="1.2.5-SNAPSHOT"
     echo "Could not parse version number of metalava.jar; assuming version $versionNumber"
   fi
 }
